@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
 import asyncio
 import json
-from interviewer import InterviewQuestionPreparer
-from evaluator import InterviewEvaluator
+from automated-interview-app.interviewer import InterviewQuestionPreparer
+from automated-interview-app.evaluator import InterviewEvaluator
 import os
 
 app = Flask(__name__)
