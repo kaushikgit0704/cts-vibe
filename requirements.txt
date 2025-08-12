@@ -26,6 +26,7 @@ et_xmlfile==2.0.0
 fastapi==0.116.1
 ffmpy==0.6.0
 Flask==3.1.1
+Flask-Cors
 flatbuffers==25.2.10
 frozenlist==1.7.0
 google-auth==2.40.3
